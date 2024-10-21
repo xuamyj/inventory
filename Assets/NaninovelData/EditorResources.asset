@@ -166,3 +166,26 @@ MonoBehaviour:
     - name: ToastUI
       pathPrefix: UI
       guid: dd85ce99288c2f8488447fa511b1c0d6
+  - Id: Scripts
+    Resources:
+    - name: LicenseConvo
+      pathPrefix: Scripts
+      guid: 52533d33b04ed47f8945adb7307eca14
+    - name: FortuneConvo
+      pathPrefix: Scripts
+      guid: c12e87dfcf3284bb782a2a58bb566c3a
+  - Id: Characters/b1d79390-bdcf-4797-a337-027eeaaf70f2
+    Resources:
+    - name: ava-nani
+      pathPrefix: Characters/A
+      guid: 8ae46a8a7475c43ed92e2da825105707
+  - Id: Characters/3507a1cd-589e-4570-9b3d-c507013037c6
+    Resources:
+    - name: malcolm-nani
+      pathPrefix: Characters/M
+      guid: e533fe09ba9704b15b12bb14cbcc5037
+  - Id: Characters/c5fff799-bb6d-4f9d-b1b2-4fc1bb24b00b
+    Resources:
+    - name: isadora-nani
+      pathPrefix: Characters/I
+      guid: 5625de7b859e74d37b6bfa4c3f4e4abb

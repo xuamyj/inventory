@@ -458,6 +458,7 @@ GameObject:
   - component: {fileID: 1861354015}
   - component: {fileID: 1861354014}
   - component: {fileID: 1861354016}
+  - component: {fileID: 1861354017}
   m_Layer: 0
   m_Name: Obj-Fortune
   m_TagString: Untagged
@@ -577,6 +578,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.3538322, y: 0.44395208}
   m_EdgeRadius: 0
+--- !u!114 &1861354017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1861354013}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9864bcd51260045cb8552494d136b045, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1972281913
 GameObject:
   m_ObjectHideFlags: 0

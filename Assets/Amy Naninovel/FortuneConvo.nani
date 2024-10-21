@@ -1,0 +1,11 @@
+@char I 
+I: Hello there, wandering traveler!
+
+@char A
+A: Hello.
+
+I: Surely you would like your fortune told for the reasonable price of 3 silver coins?
+
+A: Hmm...
+
+@adventure

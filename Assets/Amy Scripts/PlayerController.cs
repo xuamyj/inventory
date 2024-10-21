@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using Naninovel;
 
 public class PlayerController : MonoBehaviour
 {
@@ -18,6 +19,14 @@ public class PlayerController : MonoBehaviour
     float horizontal;
     float vertical;
 
+    /* ---- NANINOVEL ---- */
+    public bool IsInputBlocked;
+
+    async void RunInitalize()
+    {
+        await RuntimeInitializer.InitializeAsync();
+    }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,6 +41,10 @@ public class PlayerController : MonoBehaviour
         UpAction.Enable();
 
         rigidbody2d = GetComponent<Rigidbody2D>();
+
+        /* ---- NANINOVEL ---- */
+        IsInputBlocked = false;
+        RunInitalize();
     }
 
     // Update is called once per frame
@@ -71,11 +84,14 @@ public class PlayerController : MonoBehaviour
 
     void FixedUpdate()
     {
-        Vector2 position = rigidbody2d.position; // transform.position;
-        position.x = position.x + horizontal * Time.deltaTime;
-        position.y = position.y + vertical * Time.deltaTime;
-        // transform.position = position;
-        rigidbody2d.MovePosition(position);
+        if (!IsInputBlocked)
+        {
+            Vector2 position = rigidbody2d.position; // transform.position;
+            position.x = position.x + horizontal * Time.deltaTime;
+            position.y = position.y + vertical * Time.deltaTime;
+            // transform.position = position;
+            rigidbody2d.MovePosition(position);
+        }
     }
 }
 
