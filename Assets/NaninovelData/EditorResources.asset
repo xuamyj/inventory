@@ -189,3 +189,28 @@ MonoBehaviour:
     - name: isadora-nani
       pathPrefix: Characters/I
       guid: 5625de7b859e74d37b6bfa4c3f4e4abb
+  - Id: Characters/b47b46d0-4b3a-4276-b3ef-1e6ba59d2fb9
+    Resources:
+    - name: evander-nani
+      pathPrefix: Characters/E
+      guid: ed5317b5271214fb985df0473dcd3845
+  - Id: Characters/e55ba6cb-40b3-4845-85f7-27d009035fc1
+    Resources:
+    - name: nadira-nani
+      pathPrefix: Characters/N
+      guid: d66967fe319704b67bb43eb424236507
+  - Id: Characters/b3b35f2b-f6c9-4d3b-a49e-a2e99a72d2aa
+    Resources:
+    - name: clerk-nani
+      pathPrefix: Characters/clerk
+      guid: 45378dbd0ef6f4cbe99e23fce6dc5700
+  - Id: Characters/0f736b92-1ef7-4a60-be78-28782e02fb22
+    Resources:
+    - name: wally-nani
+      pathPrefix: Characters/wally
+      guid: 5e7e4cbecdd334fdeae5ae59c72515ea
+  - Id: Characters/18be4098-8ebd-4244-8f5f-46492f011391
+    Resources:
+    - name: villager-nani
+      pathPrefix: Characters/villager
+      guid: 8bb60c17187d544faba6fca3261c889b
