@@ -202,7 +202,7 @@ TextureImporter:
         width: 32
         height: 20
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -210,6 +210,27 @@ TextureImporter:
       bones: []
       spriteID: 6add1755e73fc44c5baaf821afda84c6
       internalID: -1403225509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: fence
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 309
+        width: 21
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ee827eb21a04bf2815ec3a8dbd9ea8
+      internalID: -1989533163
       vertices: []
       indices: 
       edges: []
@@ -227,7 +248,9 @@ TextureImporter:
     nameFileIdTable:
       crafting_area: -1403225509
       display_cabinet: -1921389812
+      fence: -1989533163
       green_bed: 118664892
+      original_atlas copy_0: 2125806064
       picnic_table: -1632838261
       red_bed: -935892563
   mipmapLimitGroupName: 
