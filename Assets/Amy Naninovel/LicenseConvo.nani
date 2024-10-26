@@ -1,17 +1,14 @@
 @char A pos:45,10
 
-A: Good morning!
-A: Is this the line for getting licenses?
+A: Excuse me, is this the line for getting licenses?
 
 @char M
 
-M: Well, I hope so.
-M: I'm waiting to get my merchant's license.
+M: Oh, I hope so. I'm waiting to get my merchant's license.
 
-A: Really?!
-A: That's why I'm here too!
+A: You are?! That's why I'm here too!
 
 M: Oh, neat.
-M: What are you planning to sell?
+M: So, what led you to the merchant's path?
 
 @adventure
